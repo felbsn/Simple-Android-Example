@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:minHeight="0dp"
+    tools:context=".InputActivity">
+
+    <TableLayout
+        android:id="@+id/authTableView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/ppEkleView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Ekle" />
+
+            <FrameLayout
+                android:layout_width="155dp"
+                android:layout_height="156dp">
+
+                <ImageButton
+                    android:id="@+id/imgBtn_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="false"
+                    android:scaleType="fitCenter"
+                    android:src="@android:drawable/ic_menu_add"
+                    tools:srcCompat="@tools:sample/avatars" />
+            </FrameLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/ad_labelview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ad" />
+
+            <EditText
+                android:id="@+id/ad_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/ad_labelview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Soyad" />
+
+            <EditText
+                android:id="@+id/soyad_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/ad_labelview3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TC" />
+
+            <EditText
+                android:id="@+id/tc_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/ad_labelview4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telefon" />
+
+            <EditText
+                android:id="@+id/tel_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/ad_labelview6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E-mail" />
+
+            <EditText
+                android:id="@+id/mail_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/sTemizle_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Temizle"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/sKaydet_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kaydet"
+                android:textAlignment="center" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
